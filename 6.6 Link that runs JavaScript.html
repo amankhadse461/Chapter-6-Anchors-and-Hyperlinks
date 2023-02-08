@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link that runs JavaScript</title>
+</head>
+<body>
+    <!-- run the text as JavaScript instead of opening it as a normal link: -->
+    <a href="javascript:myFunction();">Run Code</a>
+    
+    <a href="#" onclick="myFunction(); return false;">Run Code</a>
+     <p>The return false; is necessary to prevent your page from scrolling to the top when the link to # is clicked. Make
+        sure to include all code you'd like to run before it, as returning will stop execution of further code</p>
+     
+        <a href="#!" onclick="myFunction();">Run Code</a>
+</body>
+</html>
